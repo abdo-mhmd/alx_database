@@ -6,5 +6,6 @@ CREATE TABLE IF NOT EXISTS first_table (
     c CHAR(1),
     created_at DATE,
     PRIMARY KEY (id)
-)ENGINE=InnoDBDEFAULTCHARSET=latin1;
-SHOW CREATE TABLE `first_table`();
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+SHOW CREATE TABLE first_table;
